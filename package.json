@@ -1,0 +1,22 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khashayaryaghma/Weather-App.git"
+  },
+  "author": "khashayar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khashayaryaghma/Weather-App/issues"
+  },
+  "homepage": "https://github.com/khashayaryaghma/Weather-App#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
