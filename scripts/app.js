@@ -28,10 +28,6 @@ cityForm.addEventListener("submit", (e) => {
   cityForm.reset();
 
   updateCity(city)
-    .then((data) => {
-      updateUI(data)
-    })
-    .catch(() => {
-      console.error("somthing was wrong");
-    });
+    .then((data) => updateUI(data))
+    .catch(() => console.error("somthing was wrong"));
 });
