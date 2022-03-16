@@ -29,7 +29,7 @@ cityForm.addEventListener("submit", (e) => {
 
   updateCity(city)
     .then((data) => {
-      console.log(data);
+      updateUI(data)
     })
     .catch(() => {
       console.error("somthing was wrong");
