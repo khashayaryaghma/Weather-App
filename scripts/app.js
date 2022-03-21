@@ -20,10 +20,11 @@ const updateUI = (data) => {
 
   //update the night/day & icon image
   let timeSrc = null;
-  if (weather.isDayTime) {
-    timeSrc = "image/day.jpg"
+  console.log(weather);
+  if (weather.IsDayTime) {
+    timeSrc = "image/day.jpg";
   } else {
-    timeSrc = "image/night.jpg"
+    timeSrc = "image/night.jpg";
   }
   time.src = timeSrc
   //remove the d-none class if present
