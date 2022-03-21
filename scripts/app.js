@@ -20,7 +20,6 @@ const updateUI = (data) => {
 
   //update the night/day & icon image
   let timeSrc = null;
-  console.log(weather);
   if (weather.IsDayTime) {
     timeSrc = "image/day.jpg";
   } else {
