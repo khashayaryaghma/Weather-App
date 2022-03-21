@@ -11,6 +11,8 @@ const updateUI = (data) => {
             <span>${weather.Temperature.Metric.Value}</span>
             <span>&deg;C</span>
           </div>`;
+    //remove the d-done class if present
+    
 };
 
 const updateCity = async (city) => {
