@@ -12,7 +12,7 @@ const updateUI = (data) => {
             <span>&deg;C</span>
           </div>`;
     //remove the d-done class if present
-    
+    // card.classList.toggle("d-done")
 };
 
 const updateCity = async (city) => {
