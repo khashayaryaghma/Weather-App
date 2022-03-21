@@ -5,7 +5,7 @@ const getWeather = async(id)=>{
     const query = `${id}?apikey=${key}`
     const res = await fetch(base + query)
     const data = await res.json();
-    return data;
+    return data[0];
 }
 
 //get city
