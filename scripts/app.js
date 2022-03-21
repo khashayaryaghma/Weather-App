@@ -21,12 +21,14 @@ const updateUI = (data) => {
   //update the night/day & icon image
   const iconSrc = `img/icons/${weather/WeatherIcon}.svg`
   icon.src = iconSrc
-  let timeSrc = null;
-  if (weather.IsDayTime) {
-    timeSrc = "image/day.jpg";
-  } else {
-    timeSrc = "image/night.jpg";
-  }
+
+
+  let timeSrc = weather.IsDayTime ? "image/day.jpg" : "image/night.jpg";
+  // if (weather.IsDayTime) {
+  //   timeSrc = "image/day.jpg";
+  // } else {
+  //   timeSrc = "image/night.jpg";
+  // }
   time.src = timeSrc
   //remove the d-none class if present
   card.classList.remove("d-none");
