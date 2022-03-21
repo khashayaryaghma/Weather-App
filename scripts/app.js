@@ -20,7 +20,12 @@ const updateUI = (data) => {
 
   //update the night/day & icon image
   let timeSrc = null;
-  
+  if (weather.isDayTime) {
+    timeSrc = ""
+  } else {
+    timeSrc = ""
+  }
+  time.src = timeSrc
   //remove the d-none class if present
   card.classList.remove("d-none");
 };
