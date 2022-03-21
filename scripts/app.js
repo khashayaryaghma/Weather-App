@@ -21,9 +21,9 @@ const updateUI = (data) => {
   //update the night/day & icon image
   let timeSrc = null;
   if (weather.isDayTime) {
-    timeSrc = ""
+    timeSrc = "image/day.jpg"
   } else {
-    timeSrc = ""
+    timeSrc = "image/night.jpg"
   }
   time.src = timeSrc
   //remove the d-none class if present
